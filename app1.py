@@ -15,7 +15,8 @@ from model import *
 app = Flask(__name__)
 #ma = Marshmallow(app)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://yvanna1:1234@localhost:5432/catalogue'
+
+app.config['SQLALCHEMY_DATABASE_URI']='postgresql://yvanna1:1234@localhost/catalogue'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Initialiser SQLAlchemy avec l'application
