@@ -1,0 +1,131 @@
+
+.cont{
+    margin-top: 120px;
+}
+/* Styles for confirmation message */
+h1 {
+    text-align: center;
+    color: #08347E;
+    margin-top: 20px;
+}
+
+/* Button styles */
+button {
+    background-color: #F86A06;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #E55D04;
+}
+
+/* Actions container styles */
+.actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.actions a button {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+
+#imfond{
+    top: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    min-height: 340px; /* Utilisez min-height au lieu de height */
+}
+
+
+
+
+
+
+/* Link button styles */
+a {
+    text-decoration: none;
+    color: #08347E;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #F86A06;
+}
+
+
+/***************/
+
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px;
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+
+button {
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input[type="date"]:focus,
+textarea:focus {
+    border-color: #84cef0;
+    outline: none;
+}
+
